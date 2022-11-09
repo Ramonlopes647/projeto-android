@@ -1,0 +1,264 @@
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Bebas Neue;
+    src: url(pacote-projeto-d010/fontes/BebasNeue-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --font-destaque: 'Bebas Neue', 'cursive';
+    --font-android: 'Android', 'cursive';
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #E8E6C3;
+}
+
+p { 
+    text-indent: 20px;
+    line-height: 35px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 20px;
+    padding: 25px;
+
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > p {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+nav > a {
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 27%);
+}
+
+main {
+    margin: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border: black;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 4px 1px black;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main img {
+    width: 100%;
+}
+
+main > article {
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+article > h2 {
+    font-family: idroid;
+    color: #22623F;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.h2mod {
+    background-image: linear-gradient(to right, #bff0d5, #82dbaa, white);
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+#h3 {
+    background-color: #2FA866;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#caixalista {
+    border: black;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 5px;
+    background-color: #83E1AD;
+}
+
+#bugdroid {
+    margin: auto;
+    display: block;
+    box-shadow: none;
+    width: 50%;
+}
+
+#ytb {
+    box-shadow: none;
+    margin-left: 120px;
+}
+
+a.hiperlink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #67d898;
+    padding: 5px;
+}
+
+.hiperlink:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+a.hiperlink::after {
+    content: '\00A0\1F517\00A0';
+}
+
+#h3list {
+    background-color: #1A5C37;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: -5px;
+    padding-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: ubuntu, Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+    border-left: 4px;
+    height: 30px;
+    padding: 10px;
+}
+  
+.link:hover {
+    background-color: #2FA866;
+    color: #074020;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+
+ aside > img {
+    height: 300px;
+    width: 100%;   
+}
+
+aside > main > img {
+      padding-left: 200px;
+      height: 250px;
+}
+
+main img.pequena {
+    display: block;
+    margin: auto;
+    box-shadow: none;
+    max-width: 400px;
+}
+
+#lista {
+    background-color: #C5EBD6;
+}
+
+#caixalista {
+    background-color: var(--cor1);
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#history {
+    color: rgb(9, 56, 9);
+    
+}
+
+.negrito {
+    color: rgb(23, 78, 23);
+}
+
+.rodape {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape:hover {
+    text-decoration: underline;
+    color: #1ee276;
+}
+
+#history {
+    text-decoration: none;
+}
+
+#history:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#fundo {
+    background-color: #063D1E;
+    padding-bottom: 59%;
+    padding-top: 40px;
+    margin: 0px -20px 0px -20px;
+    position: relative;
+}
+
+iframe {
+    margin-left: 5%;
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
